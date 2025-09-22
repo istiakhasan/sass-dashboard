@@ -93,21 +93,21 @@ const AdminDashboard = () => {
             <table className=" border-gray-200">
               <thead className="bg-gray-100">
                 <tr>
-                  <th className="p-2 border">User/Merchant</th>
-                  <th className="p-2 border">Email</th>
-                  <th className="p-2 border">Type</th>
-                  <th className="p-2 border">Status</th>
-                  <th className="p-2 border">Action</th>
+                  <th className="p-2 ">User/Merchant</th>
+                  <th className="p-2 ">Email</th>
+                  <th className="p-2 ">Type</th>
+                  <th className="p-2 ">Status</th>
+                  <th className="p-2 ">Action</th>
                 </tr>
               </thead>
               <tbody>
                 {users.map((user) => (
                   <tr key={user.id} className="hover:bg-gray-50">
-                    <td className="p-2 border">{user.name}</td>
-                    <td className="p-2 border">{user.email}</td>
-                    <td className="p-2 border">User</td>
-                    <td className="p-2 border">Pending</td>
-                    <td className="p-2 border">
+                    <td className="p-2 ">{user.name}</td>
+                    <td className="p-2 ">{user.email}</td>
+                    <td className="p-2 ">User</td>
+                    <td className="p-2 ">Pending</td>
+                    <td className="p-2 ">
                       <button className="bg-green-500 text-white px-2 py-1 rounded mr-2">Approve</button>
                       <button className="bg-red-500 text-white px-2 py-1 rounded">Reject</button>
                     </td>
