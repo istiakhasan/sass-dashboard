@@ -13,10 +13,8 @@ import loginimg from "../../assets/login.jpg";
 type AdminForm = { email: string; password: string };
 type UserForm = { phone: string; password: string };
 
-export default function Login({ initialUserType = "Admin" }) {
-  const [userType, setUserType] = useState<"Admin" | "User">(
-    initialUserType as "Admin" | "User"
-  );
+export default function Login() {
+  const [userType, setUserType] = useState<"Admin" | "User">('Admin');
 
   const router = useRouter();
 
