@@ -7,7 +7,7 @@ The dashboard demonstrates authentication, protected routes, CRUD functionality,
 
 ## 🚀 Live Demo & Repository
 
-- **Vercel Live URL:** [https://sass-dashboard-theta.vercel.app/](https://sass-dashboard-theta.vercel.app/)  
+- **Vercel Live URL:** [https://sass-dashboard-one.vercel.app/](https://sass-dashboard-one.vercel.app/)  
 - **GitHub Repository:** [https://github.com/istiakhasan/sass-dashboard](https://github.com/istiakhasan/sass-dashboard)  
 
 ---
