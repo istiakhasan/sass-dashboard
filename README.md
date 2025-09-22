@@ -1,7 +1,7 @@
-# SaaS Dashboard – Coding Challenge (Motion Soft)
+# SaaS Dashboard – Motion Soft Coding Challenge
 
-A compact SaaS dashboard built with **Next.js, React, and Tailwind CSS** for the Motion Soft frontend coding challenge.  
-The project demonstrates authentication, protected routes, CRUD functionality, charts, tables with filters/sorting/search, and a profile page.  
+A compact **SaaS Dashboard** built with **Next.js, React, and Tailwind CSS** for the Motion Soft frontend coding challenge.  
+The dashboard demonstrates authentication, protected routes, CRUD functionality, charts, tables with filters/sorting/search, and a profile page.
 
 ---
 
@@ -16,45 +16,49 @@ The project demonstrates authentication, protected routes, CRUD functionality, c
 
 ### 🔐 Authentication & Routing
 - Login page with mock authentication.  
-- Protected routes (redirects if user not logged in).  
+- Protected routes: redirects if user is not logged in.  
 
 ### 📊 Dashboard
-- Fetch mock API data and display **stats**.  
-- Charts & tables with data visualization.  
+- Fetches mock API data and displays **stats**.  
+- Charts and tables for data visualization.  
 
 ### 📝 CRUD Operations
 - CRUD implemented for one resource (`Users` / `Products` / `Projects`).  
-- Create, Read, Update, Delete actions available.  
+- Full Create, Read, Update, Delete actions.
 
 ### 🔍 Table Features
 - Search bar for quick lookup.  
-- Column sorting & filtering.  
+- Column sorting and filtering.  
 
 ### 👤 Profile Page
-- Profile information.  
-- Update functionality.  
+- Profile view and update functionality.  
 
 ### 🎁 Bonus
-- **Role-based UI:** Admin vs Normal User (different views & permissions).  
+- **Role-based UI:** Admin vs Normal User (different views & permissions).
 
 ---
 
 ## ⚙️ Tech Stack
+
 - **Framework:** Next.js (App Router)  
-- **Frontend:** Next js, Tailwind CSS  
-- **Charts:** ApexCharts    
-- **Mock API:** JSON data / mock service  
+- **Styling:** Tailwind CSS  
+- **Charts:** ApexCharts  
+- **State Management:** React useState / useEffect  
+- **Mock API:** JSON data / local mock service  
 
 ---
+## ⏱️ Time Spent
+
+- **Time spent:** 05:30 (hh:mm)
 
 ## 🛠️ Getting Started
 
 Clone the repository and run locally:
 
 ```bash
-# Clone repo
-git clone https://github.com/your-username/saas-dashboard.git
-cd saas-dashboard
+# Clone repository
+git clone https://github.com/istiakhasan/sass-dashboard.git
+cd sass-dashboard
 
 # Install dependencies
 npm install
