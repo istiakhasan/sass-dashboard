@@ -9,12 +9,19 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
     "@hookform/resolvers": "^5.2.2",
+    "@mui/material": "^7.3.2",
+    "apexcharts": "^5.3.5",
+    "axios": "^1.12.2",
     "next": "15.5.3",
     "react": "19.1.0",
+    "react-apexcharts": "^1.7.0",
     "react-dom": "19.1.0",
     "react-hook-form": "^7.63.0",
     "react-toastify": "^11.0.5",
+    "remixicon": "^4.6.0",
     "yup": "^1.7.1"
   },
   "devDependencies": {

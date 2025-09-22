@@ -59,7 +59,7 @@ export default function Login({ initialUserType = "Admin" }) {
     localStorage.setItem("role", type);
 
     toast.success("Login successful!");
-    router.push(`/dashboard/${type.toLowerCase()}`);
+    router.push(`/dashboard`);
   };
 
   return (
