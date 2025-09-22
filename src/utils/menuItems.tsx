@@ -7,10 +7,24 @@ export const adminDashboardData = [
         icon: "ri-dashboard-line",
     },
     {
-        id: 2,
+        id: 4,
         title: "Manage Users",
         name: "Manage Users",
         path: "/users",
+        icon: "ri-user-settings-line", 
+    },
+    { 
+        id: 5,
+        title: "Projects",
+        name: "Projects",
+        path: "/projects",
+        icon: "ri-user-settings-line", 
+    },
+    { 
+        id: 2,
+        title: "Products",
+        name: "Products",
+        path: "/products",
         icon: "ri-user-settings-line", 
     },
     {

@@ -94,10 +94,13 @@ const Page = () => {
   };
 
 
-  const SortArrow = ({ columnKey }: { columnKey: keyof User }) => {
-    if (!sortConfig || sortConfig.key !== columnKey) return null; 
-    return sortConfig.direction === "asc" ? " ▲" : " ▼";
-  };
+ const SortArrow = ({ columnKey }: { columnKey: keyof User }) => {
+  if (!sortConfig) return <span className="text-gray-300">▲</span>;
+
+  if (sortConfig.key !== columnKey) return <span className="text-gray-300">▲</span>;
+
+  return sortConfig.direction === "asc" ? <span>▲</span> : <span>▼</span>;
+};
 
   return (
     <div className="p-6 bg-gray-50 min-h-screen">
@@ -115,6 +118,7 @@ const Page = () => {
           size="small"
           variant="contained"
           onClick={() => setIsModalOpen(true)}
+          sx={{background:"#176e6d"}}
         >
           Create User
         </Button>
